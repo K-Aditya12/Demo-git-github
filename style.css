@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    /* padding: 0px 20px 0px 20px; */
+}
+
+#navbar >h3{
+    color: white;
+}
+
+#navbar > div >a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+
+}
+
+
+#navbar > div {
+    display: flex;
+    gap: 30px;
+    
+}
